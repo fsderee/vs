@@ -42,7 +42,7 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
             $( "tr[data-label='ОМССиИС МРФ Волга']" )[0].click();
         }
         var text = reg + ", отсутствуют услуги у абонентов " + document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value;
-        document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value = text, document.getElementById("group_interaction_info_form-tab_view-commentary").value = text + " Ожидаемое время восстановления " + hour           +            ":" + minutes + " " + day + "." + month + "." + year    }, 1000);
+        document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value = text, document.getElementById("group_interaction_info_form-tab_view-commentary").value = text + " Предполагаемое время восстановления сервисов " + hour           +            ":" + minutes + " " + day + "." + month + "." + year    }, 1000);
     alert($(".ui-grid-col-7")[0].innerText.replace(' - Регистрация', ''));
     setTimeout(function() {
         document.getElementById('global_editor-form-save').click();
